@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">
+        <h2>existing content</h2>
+    </div>
+    <button onclick="addelement()">add new paragraph</button>
+    <script>
+        function addelement(){
+            let newparagraph = document.createElement("p");
+            newparagraph.textContent = " this is a new paragraph";
+            styletoelement5(newparagraph);
+            let div = document.getElementById("mydiv");
+            div.appendChild(newparagraph);
+        }
+        function styletoelement(newparagraph){
+            newparagraph.style.color ="red";
+        }
+    </script>
+</body>
+</html>

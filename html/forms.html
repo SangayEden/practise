@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 50%;
+        }
+        table, th, td {
+            border-collapse:collapse;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Practise </h1><br>
+    <h2>forms</h2>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend >Form</legend>
+            <label for="fname">first name: </label><br>
+            <input type="text" id="fname" name="first_name"><br><br>
+            <label for="lname">last name: </label><br>
+            <input type="text" id="lname" name="last_name"><br><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="pwd">Password: </label><br>
+            <input type="password" id="pwd" name="password"><br><br>
+
+            <h5>Course</h5>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Html</label><br>
+            <input type="radio" id="CSS" name="fav_language" value: CSS>
+            <label for="CSS"> CSS</label><br><br>
+
+            <h5>Hobbies</h5>
+            <input type="checkbox" id="cook" name="Hobby" value="cooking">
+            <label for="cook">cooking</label><br>
+            <input type="checkbox" id="swim" name="Hobby" value="swimming">
+            <label for="swim">Swimming</label><br>
+            <input type="checkbox" id="read" name="Hobby" value="reading">
+            <label for="read"> Reading Books</label><br><br>
+
+            <h5>Department</h5>
+            <label for="departments">Choose your Department: </label>
+            <select name="departments" id="departments">
+                <option value="IT">IT</option>
+                <option value="Macanical">Macanical</option>
+            </select>
+        </fieldset><br><br>
+    </form><br><br>
+
+    <h1>Eden</h1>
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th colspan="2">2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td rowspan="2">d</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+        </tr>
+        <tr>
+            <td rowspan="2">h</td>
+            <td>i</td>
+            <td colspan="2" rowspan="2">j</td>
+        </tr>
+        <tr>
+            <td>k</td>
+        </tr>
+    </table>
+    
+    <h2>Lists </h2>
+    <fieldset>
+        <legend>Class Contribution</legend>
+        <ol type="1">
+            <li>CSN</li>
+            <ul style="list-style-type: square;">
+                <li>Nu. 5000/- for chekhang</li>
+                <li>Nu. 600/- for college rimdo</li>
+            </ul>
+            <li>MA</li>
+            <ul style="list-style-type: square;">
+                <li>Nu. 20/- for Toilet </li>
+                <ol type="i">
+                    <li> Nu 5/- for toilet pot</li>
+                    <li>Nu 10/- for toilet paper</li>
+                    <li>Nu 5/- for toilet mirror</li>
+                </ol>
+            </ul>
+        </ol>
+        <ul>
+    
+        </ul>
+    </fieldset>
+</body>
+</html>
